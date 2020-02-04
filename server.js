@@ -19,9 +19,7 @@ app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populatedb", { useNewUrlParser: true });
 
-// db.on("error", error => {
-//     console.log("Database Error:", error);
-// });
+require("./seeders/seed.js");
 
 
 app.get("/", (req, res) => {
@@ -38,7 +36,11 @@ app.get("/stats", (req, res) => {
 
 //get workouts
 app.get("/api/workouts", (req, res) => {
+    // console.log(db);
+
+    console.log(db.Workout);
     db.Workout.find({}).then(dbWorkout => {
+        console.log(dbWorkout);
         res.json(dbWorkout);
     }).catch(err => {
         res.json(err);
@@ -46,15 +48,17 @@ app.get("/api/workouts", (req, res) => {
 });
 
 // add exercise
-app.put("/api/workouts", ({ body }, res) => {
-    db.Exercise.create(body)
-        .then(({ _id }) => db.Workout.findOneAndUpdate({}, { $push: { exercises: _id } }, { new: true }))
+app.put("/api/workouts/:id", (req, res) => {
+
+    db.Exercise.create(req.body)
+        .then(({ _id }) => db.Workout.findOneAndUpdate({ _id: req.params.id }, { $push: { exercises: _id } }, { new: true }))
         .then(dbWorkout => {
             res.json(dbWorkout);
         })
         .catch(err => {
             res.json(err);
         });
+
 });
 
 //create workout
@@ -73,6 +77,6 @@ app.get("/api/workouts/range", (req, res) => {
 
 
 
-app.listen(3000, () => {
-    console.log("App running on port 3000!");
+app.listen(PORT, () => {
+    console.log(`App running on port ${PORT}!`);
 });
