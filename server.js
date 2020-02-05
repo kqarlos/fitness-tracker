@@ -40,9 +40,16 @@ app.get("/api/workouts", (req, res) => {
     db.Workout.find({}).then(dbWorkout => {
         console.log("ALL WORKOUTS");
         console.log(dbWorkout);
-        console.log("Workout 0");
-        console.log(dbWorkout[0]);
-        console.log(dbWorkout[0].exercises);
+        dbWorkout.forEach(workout => {
+            var total = 0;
+            workout.exercises.forEach(e => {
+                console.log("Exercise");
+                console.log(e);
+                total += e.duration;
+            });
+            workout.totalDuration = total;
+
+        });
 
         res.json(dbWorkout);
     }).catch(err => {
@@ -54,16 +61,23 @@ app.get("/api/workouts", (req, res) => {
 app.put("/api/workouts/:id", (req, res) => {
     console.log("WORKOUT ID TO ADD EXERCISE");
     console.log(req.params.id);
+    console.log("EXCERCISE TO BE ADDED");
+    console.log(req.body);
 
-    db.Exercise.create(req.body)
-        
-        .then((exercise) => db.Workout.findOneAndUpdate({ _id: req.params.id }, { $inc : { totalDuration : exercise.duration } , $push: { exercises: exercise._id } }, { new: true }))
-        .then(dbWorkout => {
+    db.Workout.findOneAndUpdate(
+        { _id: req.params.id },
+        {
+            $inc: { totalDuration: req.body.duration },
+            $push: { exercises: req.body }
+        },
+        { new: true }).then(dbWorkout => {
             res.json(dbWorkout);
-        })
-        .catch(err => {
+        }).catch(err => {
             res.json(err);
         });
+
+
+
 
 });
 
@@ -81,6 +95,15 @@ app.post("/api/workouts", ({ body }, res) => {
 
 // get workouts in range
 app.get("/api/workouts/range", (req, res) => {
+
+    db.Workout.find({}).then(dbWorkout => {
+        console.log("ALL WORKOUTS");
+        console.log(dbWorkout);
+
+        res.json(dbWorkout);
+    }).catch(err => {
+        res.json(err);
+    });
 
 });
 
