@@ -4,9 +4,10 @@ Track your workouts with Fitness Tracker. The app will keep track of every exerc
 
 ## Getting Started
 
-1. Clone repository
-2. npm install
-3. node server.js
+1. Clone repository. 
+2. Check in routes/api-routes and comment in block of code if you want the database to be prepopulated with dummy values
+3. npm install
+4. node server.js
 
 Running seeders/seed.js is optional to have a prepopulated database.
 
@@ -66,7 +67,7 @@ Running seeders/seed.js is optional to have a prepopulated database.
 
 ## Deployed Link
 
-* [See Live Site](https://kqarlos.github.io/fitness-tracker)
+* [See Live Site](https://track-your-fitness.herokuapp.com/?id=5e3b1ea870e2390017f01261)
 
 ## Author
 
