@@ -17,9 +17,9 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populatedb", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
-require("./seeders/seed.js");
+// require("./seeders/seed.js");
 
 
 app.get("/", (req, res) => {
@@ -36,11 +36,14 @@ app.get("/stats", (req, res) => {
 
 //get workouts
 app.get("/api/workouts", (req, res) => {
-    // console.log(db);
 
-    console.log(db.Workout);
     db.Workout.find({}).then(dbWorkout => {
+        console.log("ALL WORKOUTS");
         console.log(dbWorkout);
+        console.log("Workout 0");
+        console.log(dbWorkout[0]);
+        console.log(dbWorkout[0].exercises);
+
         res.json(dbWorkout);
     }).catch(err => {
         res.json(err);
@@ -49,9 +52,12 @@ app.get("/api/workouts", (req, res) => {
 
 // add exercise
 app.put("/api/workouts/:id", (req, res) => {
+    console.log("WORKOUT ID TO ADD EXERCISE");
+    console.log(req.params.id);
 
     db.Exercise.create(req.body)
-        .then(({ _id }) => db.Workout.findOneAndUpdate({ _id: req.params.id }, { $push: { exercises: _id } }, { new: true }))
+        
+        .then((exercise) => db.Workout.findOneAndUpdate({ _id: req.params.id }, { $inc : { totalDuration : exercise.duration } , $push: { exercises: exercise._id } }, { new: true }))
         .then(dbWorkout => {
             res.json(dbWorkout);
         })
@@ -63,6 +69,9 @@ app.put("/api/workouts/:id", (req, res) => {
 
 //create workout
 app.post("/api/workouts", ({ body }, res) => {
+    console.log("WORKOUT TO BE ADDED");
+    console.log(body);
+
     db.Workout.create(body).then((dbWorkout => {
         res.json(dbWorkout);
     })).catch(err => {
