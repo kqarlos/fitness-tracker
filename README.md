@@ -102,3 +102,4 @@ Running seeders/seed.js is optional to have a prepopulated database.
 * ![Express V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/express)
 * ![Mongoose V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mongoose)
 * ![Morgan V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/morgan)
+* [![HitCount](http://hits.dwyl.com/kqarlos/fitness-tracker.svg)](http://hits.dwyl.com/kqarlos/fitness-tracker)
