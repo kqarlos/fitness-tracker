@@ -1,5 +1,5 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "fitness-tracker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,8 +9,8 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Carlos Toledo",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
     "mongoose": "^5.3.16",
