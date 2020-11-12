@@ -4,7 +4,17 @@
 
 Track your workouts with Fitness Tracker. The app will keep track of every exercise in your workout. The app dashboard will display weekly summary graphs of all workouts done in a week.
 
-## Getting Started
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+    * [Screenshots](#screenshots)
+    * [Snippets](#snippets)
+* [Credits](#credits)
+* [License](#license)
+* [Badges](#Badges)
+
+## Installation
 
 1. Clone repository. 
 2. Check in routes/api-routes and comment in block of code if you want the database to be prepopulated with dummy values
@@ -13,7 +23,11 @@ Track your workouts with Fitness Tracker. The app will keep track of every exerc
 
 Running seeders/seed.js is optional to have a prepopulated database.
 
-## Site Pictures
+* [See Live Site](https://track-your-fitness.herokuapp.com/?id=5e3b1ea870e2390017f01261)
+
+## Usage
+
+### Screeshots
 
 1. Homepage displaying last workout
 
@@ -28,7 +42,7 @@ Running seeders/seed.js is optional to have a prepopulated database.
 
 ![Site](public/assets/dash.png)
 
-## Code Snippets
+### Snippets
 
 
 1. Adding to an array type
@@ -56,7 +70,15 @@ Running seeders/seed.js is optional to have a prepopulated database.
 * This function will add an exercise to the array of exercises that belong to the workout with the given id. Here we will locate the workout with the given ID and update its fields. We will increase the total duration of the workout by the duration of the exercise being inserted. We will push the exercise to the array of exercises.
 
 
-## Built With
+## Credits
+
+### Author
+
+- Carlos Toledo: [portfolio](https://professional-portfolio2020.herokuapp.com/)
+- Github: [kqarlos](https://www.github.com/kqarlos)
+- LinkedIn: [carlos-toledo415](https://www.linkedin.com/in/carlos-toledo415/)
+
+### Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -66,17 +88,17 @@ Running seeders/seed.js is optional to have a prepopulated database.
 * [Express](https://www.npmjs.com/package/express)
 * [MongoDB](https://www.mongodb.com/)
 
+## License
 
-## Deployed Link
+![License](https://img.shields.io/github/license/kqarlos/fitness-tracker)
 
-* [See Live Site](https://track-your-fitness.herokuapp.com/?id=5e3b1ea870e2390017f01261)
+## Badges
 
-## Author
-
- * **Carlos Toledo** 
-
-## Links
-
-- [Link to site repository](https://github.com/kqarlos/fitness-tracker)
-- [Link to Github](https://www.github.com/kqarlos)
-- [Link to LinkedIn](https://www.linkedin.com/in/carlos-toledo415/)
+* ![Languages](https://img.shields.io/github/languages/count/kqarlos/fitness-tracker)
+* ![Top Language](https://img.shields.io/github/languages/top/kqarlos/fitness-tracker)
+* ![Code Size](https://img.shields.io/github/languages/code-size/kqarlos/fitness-tracker)
+* ![Repo Size](https://img.shields.io/github/repo-size/kqarlos/fitness-tracker)
+* ![Total Lines](https://img.shields.io/tokei/lines/github/kqarlos/fitness-tracker)
+* ![Express V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/express)
+* ![Mongoose V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mongoose)
+* ![Morgan V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/morgan)
