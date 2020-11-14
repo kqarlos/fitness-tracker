@@ -1,5 +1,17 @@
 # Fitness Tracker
 
+![Languages](https://img.shields.io/github/languages/count/kqarlos/fitness-tracker)
+![Top Language](https://img.shields.io/github/languages/top/kqarlos/fitness-tracker)
+![Code Size](https://img.shields.io/github/languages/code-size/kqarlos/fitness-tracker)
+![Repo Size](https://img.shields.io/github/repo-size/kqarlos/fitness-tracker)
+![Total Lines](https://img.shields.io/tokei/lines/github/kqarlos/fitness-tracker)
+![Express V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/express)
+![Mongoose V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mongoose)
+![Morgan V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/morgan)
+![Last Commit](https://img.shields.io/github/last-commit/kqarlos/fitness-tracker)
+[![HitCount](http://hits.dwyl.com/kqarlos/fitness-tracker.svg)](http://hits.dwyl.com/kqarlos/fitness-tracker)
+![Followers](https://img.shields.io/github/followers/kqarlos?style=social)
+
 ## Description
 
 Track your workouts with Fitness Tracker. The app will keep track of every exercise in your workout. The app dashboard will display weekly summary graphs of all workouts done in a week.
@@ -12,7 +24,6 @@ Track your workouts with Fitness Tracker. The app will keep track of every exerc
     * [Snippets](#snippets)
 * [Credits](#credits)
 * [License](#license)
-* [Badges](#Badges)
 
 ## Installation
 
@@ -91,17 +102,3 @@ Running seeders/seed.js is optional to have a prepopulated database.
 ## License
 
 ![License](https://img.shields.io/github/license/kqarlos/fitness-tracker)
-
-## Badges
-
-* ![Languages](https://img.shields.io/github/languages/count/kqarlos/fitness-tracker)
-* ![Top Language](https://img.shields.io/github/languages/top/kqarlos/fitness-tracker)
-* ![Code Size](https://img.shields.io/github/languages/code-size/kqarlos/fitness-tracker)
-* ![Repo Size](https://img.shields.io/github/repo-size/kqarlos/fitness-tracker)
-* ![Total Lines](https://img.shields.io/tokei/lines/github/kqarlos/fitness-tracker)
-* ![Express V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/express)
-* ![Mongoose V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mongoose)
-* ![Morgan V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/morgan)
-* ![Last Commit](https://img.shields.io/github/last-commit/kqarlos/fitness-tracker)
-* [![HitCount](http://hits.dwyl.com/kqarlos/fitness-tracker.svg)](http://hits.dwyl.com/kqarlos/fitness-tracker)
-* ![Followers](https://img.shields.io/github/followers/kqarlos?style=social)
