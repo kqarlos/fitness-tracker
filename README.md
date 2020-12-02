@@ -9,7 +9,6 @@
 ![Mongoose V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mongoose)
 ![Morgan V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/morgan)
 ![Last Commit](https://img.shields.io/github/last-commit/kqarlos/fitness-tracker)
-[![HitCount](http://hits.dwyl.com/kqarlos/fitness-tracker.svg)](http://hits.dwyl.com/kqarlos/fitness-tracker)
 ![Followers](https://img.shields.io/github/followers/kqarlos?style=social)
 
 ## Description
