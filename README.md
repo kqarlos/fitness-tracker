@@ -1,12 +1,5 @@
 # Fitness Tracker
 
-
-
-![Mongoose V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mongoose)
-![Morgan V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/morgan)
-![Last Commit](https://img.shields.io/github/last-commit/kqarlos/fitness-tracker)
-![Followers](https://img.shields.io/github/followers/kqarlos?style=social)
-
 </br>
 <p align="center">
     <img src="https://img.shields.io/github/languages/count/kqarlos/fitness-tracker?style=for-the-badge" alt="Languages" />
@@ -15,15 +8,8 @@
     <img src="https://img.shields.io/github/repo-size/kqarlos/fitness-tracker?style=for-the-badge" alt="Repo Size" />   
     <img src="https://img.shields.io/tokei/lines/github/kqarlos/fitness-tracker?style=for-the-badge" alt="Total Lines" />
     <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/express?style=for-the-badge" alt="Express Version" />
-    
-    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mongoose?style=for-the-badge" alt="Axios Version" />
-
-    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/express-handlebars?style=for-the-badge" alt="Express- handlebars Version" />
-    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mysql2?style=for-the-badge" alt="Mysql2 Version" />
-    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/sequelize?style=for-the-badge" alt="Sequelize Version" />
-    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/handlebars-helpers?style=for-the-badge" alt="Handlebars Helpers Version" />
-
-    
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mongoose?style=for-the-badge" alt="Mongoose Version" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/morgan?style=for-the-badge" alt="Morgan Version" />
     <img src="https://img.shields.io/github/last-commit/kqarlos/fitness-tracker?style=for-the-badge" alt="Last Commit" />  
     <img src="https://img.shields.io/github/issues/kqarlos/fitness-tracker?style=for-the-badge" alt="Issues" />  
     <img src="https://img.shields.io/github/followers/kqarlos?style=social" alt="Followers" />  
