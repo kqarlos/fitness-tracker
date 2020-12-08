@@ -1,15 +1,34 @@
 # Fitness Tracker
 
-![Languages](https://img.shields.io/github/languages/count/kqarlos/fitness-tracker)
-![Top Language](https://img.shields.io/github/languages/top/kqarlos/fitness-tracker)
-![Code Size](https://img.shields.io/github/languages/code-size/kqarlos/fitness-tracker)
-![Repo Size](https://img.shields.io/github/repo-size/kqarlos/fitness-tracker)
-![Total Lines](https://img.shields.io/tokei/lines/github/kqarlos/fitness-tracker)
-![Express V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/express)
+
+
 ![Mongoose V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mongoose)
 ![Morgan V](https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/morgan)
 ![Last Commit](https://img.shields.io/github/last-commit/kqarlos/fitness-tracker)
 ![Followers](https://img.shields.io/github/followers/kqarlos?style=social)
+
+</br>
+<p align="center">
+    <img src="https://img.shields.io/github/languages/count/kqarlos/fitness-tracker?style=for-the-badge" alt="Languages" />
+    <img src="https://img.shields.io/github/languages/top/kqarlos/fitness-tracker?style=for-the-badge" alt="Top Language" />
+    <img src="https://img.shields.io/github/languages/code-size/kqarlos/fitness-tracker?style=for-the-badge" alt="Code Size" />
+    <img src="https://img.shields.io/github/repo-size/kqarlos/fitness-tracker?style=for-the-badge" alt="Repo Size" />   
+    <img src="https://img.shields.io/tokei/lines/github/kqarlos/fitness-tracker?style=for-the-badge" alt="Total Lines" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/express?style=for-the-badge" alt="Express Version" />
+    
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mongoose?style=for-the-badge" alt="Axios Version" />
+
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/express-handlebars?style=for-the-badge" alt="Express- handlebars Version" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mysql2?style=for-the-badge" alt="Mysql2 Version" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/sequelize?style=for-the-badge" alt="Sequelize Version" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/handlebars-helpers?style=for-the-badge" alt="Handlebars Helpers Version" />
+
+    
+    <img src="https://img.shields.io/github/last-commit/kqarlos/fitness-tracker?style=for-the-badge" alt="Last Commit" />  
+    <img src="https://img.shields.io/github/issues/kqarlos/fitness-tracker?style=for-the-badge" alt="Issues" />  
+    <img src="https://img.shields.io/github/followers/kqarlos?style=social" alt="Followers" />  
+</p>
+
 
 ## Description
 
@@ -33,7 +52,10 @@ Track your workouts with Fitness Tracker. The app will keep track of every exerc
 
 Running seeders/seed.js is optional to have a prepopulated database.
 
-* [See Live Site](https://track-your-fitness.herokuapp.com/?id=5e3b1ea870e2390017f01261)
+<p align="center">
+    <a href="https://track-your-fitness.herokuapp.com/"><img src="https://img.shields.io/badge/-👉 See Live Site-success?style=for-the-badge"  alt="Live Site" /></a>
+</p>
+
 
 ## Usage
 
@@ -90,14 +112,21 @@ Running seeders/seed.js is optional to have a prepopulated database.
 
 ### Built With
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Bootstrap](https://getbootstrap.com/)
-* [Javascript](https://www.javascript.com/)
-* [Node.js](https://nodejs.org/en/)
-* [Express](https://www.npmjs.com/package/express)
-* [MongoDB](https://www.mongodb.com/)
+</br>
+<p align="center">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/-HTML-orange?style=for-the-badge"  alt="HMTL" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/-CSS-blue?style=for-the-badge" alt="CSS" /></a>
+    <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge" alt="Javascript" /></a>
+    <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/-Bootstrap-blueviolet?style=for-the-badge" alt="Bootstrap" /></a>
+    <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/-Node-orange?style=for-the-badge" alt="Node" /></a>
+    <a href="https://www.npmjs.com/package/express"><img src="https://img.shields.io/badge/-Express-blue?style=for-the-badge" alt="Express" /></a>
+    <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/-MongoDB-blue?style=for-the-badge" alt="MongoDB" /></a>
+</p>
 
 ## License
 
-![License](https://img.shields.io/github/license/kqarlos/fitness-tracker)
+
+</br>
+<p align="center">
+    <img align="center" src="https://img.shields.io/github/license/kqarlos/fitness-tracker?style=for-the-badge" alt="MIT license" />
+</p>
