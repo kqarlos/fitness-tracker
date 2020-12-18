@@ -92,8 +92,8 @@ Running seeders/seed.js is optional to have a prepopulated database.
 
 ### Author
 
-- Carlos Toledo: [portfolio](https://professional-portfolio2020.herokuapp.com/)
-- Github: [kqarlos](https://www.github.com/kqarlos)
+- 💼 Carlos Toledo: [portfolio](https://professional-portfolio2020.herokuapp.com/)
+- :octocat: Github: [kqarlos](https://www.github.com/kqarlos)
 - LinkedIn: [carlos-toledo415](https://www.linkedin.com/in/carlos-toledo415/)
 
 ### Built With
